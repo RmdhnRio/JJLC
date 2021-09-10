@@ -1,0 +1,60 @@
+[07-Nov-2019 20:43:31 UTC] PHP Fatal error:  Class 'IXR_Server' not found in /home/jjlcunjc/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[17-Apr-2020 14:33:25 UTC] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[17-Apr-2020 14:33:25 UTC] PHP Notice:  Use of undefined constant WPINC - assumed 'WPINC' in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[17-Apr-2020 14:33:25 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[17-Apr-2020 14:33:25 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[17-Apr-2020 14:33:25 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[21-Apr-2020 07:19:26 UTC] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[21-Apr-2020 07:19:26 UTC] PHP Notice:  Use of undefined constant WPINC - assumed 'WPINC' in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[21-Apr-2020 07:19:26 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[21-Apr-2020 07:19:26 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[21-Apr-2020 07:19:26 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[29-Jun-2020 19:56:23 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/jjlcunjc/public_html/wp-includes/locale.php on line 10
+[30-Jun-2020 07:53:19 UTC] PHP Fatal error:  Class 'Walker' not found in /home/jjlcunjc/public_html/wp-includes/class-walker-nav-menu.php on line 17
+[21-Jul-2020 11:35:00 UTC] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[21-Jul-2020 11:35:00 UTC] PHP Notice:  Use of undefined constant WPINC - assumed 'WPINC' in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[21-Jul-2020 11:35:00 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[21-Jul-2020 11:35:00 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[21-Jul-2020 11:35:00 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[21-Jul-2020 11:35:02 UTC] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[21-Jul-2020 11:35:02 UTC] PHP Notice:  Use of undefined constant WPINC - assumed 'WPINC' in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[21-Jul-2020 11:35:02 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[21-Jul-2020 11:35:02 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[21-Jul-2020 11:35:02 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[21-Jul-2020 11:35:04 UTC] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[21-Jul-2020 11:35:04 UTC] PHP Notice:  Use of undefined constant WPINC - assumed 'WPINC' in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[21-Jul-2020 11:35:04 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[21-Jul-2020 11:35:04 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[21-Jul-2020 11:35:04 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[29-Jul-2020 14:46:18 UTC] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[29-Jul-2020 14:46:18 UTC] PHP Notice:  Use of undefined constant WPINC - assumed 'WPINC' in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[29-Jul-2020 14:46:18 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[29-Jul-2020 14:46:18 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[29-Jul-2020 14:46:18 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[19-Aug-2020 11:42:51 UTC] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[19-Aug-2020 11:42:51 UTC] PHP Notice:  Use of undefined constant WPINC - assumed 'WPINC' in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[19-Aug-2020 11:42:51 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[19-Aug-2020 11:42:51 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[19-Aug-2020 11:42:51 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[22-Jan-2021 16:16:49 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[22-Jan-2021 16:16:49 UTC] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[22-Jan-2021 16:16:49 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[22-Jan-2021 16:16:49 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[22-Jan-2021 16:16:49 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[08-Feb-2021 23:08:25 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[08-Feb-2021 23:08:25 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[08-Feb-2021 23:08:25 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[26-Feb-2021 00:29:10 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[26-Feb-2021 00:29:10 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[26-Feb-2021 00:29:10 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[10-Mar-2021 13:53:23 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[10-Mar-2021 13:53:23 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[10-Mar-2021 13:53:23 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/jjlcunjc/public_html/wp-includes/functions.php on line 8
+[24-Mar-2021 23:21:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/jjlcunjc/public_html/wp-includes/rss-functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/jjlcunjc/public_html/wp-includes/rss-functions.php on line 8
+[05-Aug-2021 00:30:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/jjlcunjc/public_html/wp-includes/locale.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/jjlcunjc/public_html/wp-includes/locale.php on line 10

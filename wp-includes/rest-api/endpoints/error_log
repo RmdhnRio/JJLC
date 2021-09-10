@@ -1,0 +1,1 @@
+[08-Nov-2019 16:46:25 UTC] PHP Fatal error:  Class 'WP_REST_Controller' not found in /home/jjlcunjc/public_html/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php on line 17
