@@ -1,0 +1,5 @@
+MOM :
+1) Ubah kontak pada halaman kontak
+2) Ubah divisi profile
+3) Tambahkan satu admin
+4) Tambah Popup

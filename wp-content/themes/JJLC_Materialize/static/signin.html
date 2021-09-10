@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>JJLC</title>
+
+  <!-- CSS  -->
+  <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+  <link href="assets/css/icon.css" type="text/css" rel="stylesheet">
+  <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="#" class="brand-logo center"><img alt="JJLC" class="nav-logo" src="assets/img/logojjlc.png"></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="archive.html">Artikel</a></li>
+            <li><a href="contact.html">Kontak</a></li>
+            <li><a class="dropdown-button" href="#!" data-target="divisi">Divisi<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="profile.html">Profil</a></li>
+            <li><a href="gallery.html">Galeri</a></li>
+          </ul>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="login.html">Masuk</a></li>
+            <li><a href="signin.html">Daftar</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Dropdown Desktop -->
+  <ul id="divisi" class="dropdown-content">
+    <li><a href="animanga.html"><img src="assets/img/animanga.png">Animanga</a></li>
+    <li class="divider"></li>
+    <li><a href="culture.html"><img src="assets/img/budaya.png">Budaya</a></li>
+    <li class="divider"></li>
+    <li><a href="cosplay.html"><img src="assets/img/cosplay.png">Cosplay</a></li>
+    <li class="divider"></li>
+    <li><a href="games.html"><i class="material-icons">games</i>Games</a></li>
+  </ul>
+
+    <!-- Dropdown Mobile -->
+  <ul id="mobile-divisi" class="dropdown-content">
+    <li><a href="animanga.html"><img src="assets/img/animanga.png">Animanga</a></li>
+    <li class="divider"></li>
+    <li><a href="culture.html"><img src="assets/img/budaya.png">Budaya</a></li>
+    <li class="divider"></li>
+    <li><a href="cosplay.html"><img src="assets/img/cosplay.png">Cosplay</a></li>
+    <li class="divider"></li>
+    <li><a href="games.html"><i class="material-icons">games</i>Games</a></li>
+  </ul>
+
+  <ul class="sidenav" id="mobile-demo" >
+    <li><a href="index.html">Home</a></li>
+    <li><a href="archive.html">Artikel</a></li>
+    <li><a href="contact.html">Kontak</a></li>
+    <li><a class="dropdown-mobile" href="#!" data-target="mobile-divisi">Divisi<i class="material-icons right">arrow_drop_down</i></a></li>
+    <li><a href="profile.html">Profil</a></li>
+    <li><a href="gallery.html">Galeri</a></li>
+    <li class="divider"></li>
+    <li><a href="login.html">Masuk</a></li>
+    <li><a href="signin.html">Daftar</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+
+  
+  <section class="page-title">
+    <div class="row">
+      <div class="container">
+        <h4 class="center">Sign in Page</h4>
+        <div class="divider-center"></div>
+      </div>
+    </div>
+  </section>
+
+  <br>
+  <br>
+
+
+  <!--<a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+  <div id="modal1" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Setuju</a>
+      <a href="#!" class="modal-close waves-effect waves-red btn-flat">Kembali</a>
+    </div>
+  </div>-->
+
+  <div class="row">
+    <div class="col s12 center-align">
+      <img src="assets/img/1.png" class="responsive-img">
+    </div>
+  </div>
+
+
+  <section class="signin">
+    <div class="row">
+      <div class="container">
+        <div class="col s12 m10 offset-l1">
+          <div class="card darken-1 z-depth-3">
+            <div class="card-content dark-text">
+              <span class="card-title center">Daftar Sekarang!</span>
+              <p></p>
+              <br>
+
+              <div class="row">
+                <div class="container">
+                  <form class="col s12">
+                    <h5>Isi kolom pendaftaran berikut!</h5>
+                    <div class="divider-left"></div>
+                    <br>
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="username" name="username" type="text" class="validate">
+                        <label for="username">Username</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <i class="material-icons prefix">lock_outline</i>
+                        <input id="password" name="password" type="password" class="validate">
+                        <label for="password">Password</label>
+                        <span class="helper-text" data-error="Oops" data-success="Okeyy">Password minimal 8 Karakter, mengandung angka, huruf besar, dan huruf kecil</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <i class="material-icons prefix">check</i>
+                        <input id="password_confirm" name="password_confirm" type="password" class="validate">
+                        <label for="password_confirm">Confirm Password</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">sentiment_neutral</i>
+                        <input id="nama_depan" name="nama_depan" type="text" class="validate">
+                        <label for="nama_depan">Nama Depan</label>
+                        <span class="helper-text" data-error="Oops" data-success="Okeyy">Sesuai dengan KTP</span>
+                      </div>
+                      <div class="input-field col s12 m6">
+                        <input id="nama_belakang" name="nama_belakang" type="text" class="validate">
+                        <label for="nama_belakang">Nama Belakang</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s6">
+                        <i class="material-icons prefix">today</i>
+                        <input id="tgl_lahir" name="tgl_lahir" type="text" class="datepicker">
+                        <label for="tgl_lahir">Tanggal lahir</label>
+                        <span class="helper-text" data-error="Oops" data-success="Okeyy">Tanggal lahir anda</span><br>
+                        <span class="helper-text" data-error="Oops" data-success="Okeyy">(!) Jika tahun lahir belum ada, pilih paling atas terlebih dahulu dan coba scroll kembali</p>
+                      </div>
+                      <div class="input-field col s6">
+                        <i class="material-icons prefix">location_city</i>
+                        <input placeholder="Ex: Jakarta" id="tempat_lahir" name="tempat_lahir" type="text" class="validate">
+                        <label for="tempat_lahir">Tempat Lahir</label>
+                        <span class="helper-text" data-error="Oops" data-success="Okeyy">Sertakan Tempat lahir anda</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <i class="material-icons prefix">sentiment_very_satisfied</i>
+                        <input id="nick_name" name="nick_name" type="text" class="validate">
+                        <label for="nick_name">Nama Wibu / Nickname</label>
+                        <span class="helper-text" data-error="Oops" data-success="Okeyy">Terserah anda</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <i class="material-icons prefix">wc</i>
+                        <select name="jenis_kelamin">
+                          <option value="" disabled selected>Jenis Kelamin</option>
+                          <option value="laki-laki">Laki-laki</option>
+                          <option value="perempuan">Perempuan</option>
+                        </select>
+                        <label>Jenis Kelamin</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <i class="material-icons prefix">school</i>
+                        <select name="fakultas">
+                          <option value="" disabled selected>Pilih Fakultas</option>
+                          <option value="ft">Fakultas Teknik</option>
+                          <option value="fbs">Fakultas Bahasa dan Seni</option>
+                          <option value="fe">Fakultas Ekonomi</option>
+                          <option value="fip">Fakultas Ilmu Pendidikan</option>
+                          <option value="fis">Fakultas Ilmu Sosial</option>
+                          <option value="fmipa">Fakultas Matematika dan IPA</option>
+                          <option value="fio">Fakultas Ilmu Olahraga</option>
+                          <option value="pasca">Pascasarjana</option>
+                        </select>
+                        <label>Dari Fakultas apa anda ?</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <i class="material-icons prefix">label_outline</i>
+                        <input id="prodi" name="prodi" type="text" class="validate">
+                        <label for="prodi">Program Pendidikan</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <i class="material-icons prefix">perm_contact_calendar</i>
+                        <input placeholder="YYYY // 2017" id="tahun_angkatan" name="tahun_angkatan" type="text" class="validate">
+                        <label for="tahun_angkatan">Tahun Angkatan</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <i class="material-icons prefix">local_phone</i>
+                        <input placeholder="08XXXXXXXX" id="no_hp" name="no_hp" type="number" class="validate">
+                        <label for="no_hp">Nomor Handphone</label>
+                        <span class="helper-text" data-error="Oops" data-success="Okeyy">Nomor yang bisa kami hubungi</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <i class="material-icons prefix">people</i>
+                        <select name="divisi">
+                          <option value="" disabled selected>Pilih Divisi</option>
+                          <option data-icon="assets/img/animanga.png" class="left" value="animanga">Animanga</option>
+                          <option data-icon="assets/img/budaya.png" class="left" value="budaya">Budaya</option>
+                          <option data-icon="assets/img/cosplay.png" class="left" value="cosplay">Cosplay</option>
+                          <option data-icon="assets/img/animanga.png" class="left" value="games">Games</option>
+                        </select>
+                        <label>Divisi</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <i class="material-icons prefix">person_outline</i>
+                        <select name="status_mahasiswa">
+                          <option value="" disabled selected>Status Kemahasiwaan</option>
+                          <option value="mahasiswa">Mahasiswa</option>
+                          <option value="alumni">Alumni</option>
+                        </select>
+                        <label>Status Mahasiswa</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <i class="material-icons prefix">location_on</i>
+                        <textarea id="alamat" name="alamat" class="materialize-textarea"></textarea>
+                        <label for="alamat">Alamat</label>
+                        <span class="helper-text" data-error="Oops" data-success="Okeyy">Sertakan alamat lengkap anda!</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <i class="material-icons prefix">live_help</i>
+                        <textarea id="alasan_daftar" name="alasan_daftar" class="materialize-textarea"></textarea>
+                        <label for="alasan_daftar">Alasan Mendaftar</label>
+                        <span class="helper-text" data-error="Oops" data-success="Okeyy">Apa alasan anda mendaftar menjadi anggota JJLC ?</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12 center">
+                        <a class="waves-effect waves-light btn-large red"><i class="material-icons left">check</i>Submit</a>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!--  Scripts-->
+  <script src="assets/js/jquery-2.1.1.min.js"></script>
+  <script src="assets/js/materialize.js"></script>
+  <script src="assets/js/init.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+    $(".dropdown-button").dropdown();
+    $(".dropdown-mobile").dropdown();
+    $('#modal1').modal();
+    $('select').formSelect();
+    $('.datepicker').datepicker({
+        editable: true,
+        selectMonths: true,
+        selectYears: 50,
+        format: 'dd-mm-yyyy',
+        minDate: new Date(1990,1,1),
+        maxDate: new Date(2077,7,1),
+      });
+  });
+  </script>
+
+  </body>
+</html>

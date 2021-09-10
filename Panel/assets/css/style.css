@@ -1,0 +1,96 @@
+/* 
+	Title 		: Style CSS;
+	Author		: JJLC UNJ;
+	Created by  : Rio;
+	Version		: 1.0;
+*/
+
+
+.bg-gradient-pink {
+ 	background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
+}
+
+.bg-gradient-blue-pink{
+	background-image: linear-gradient(45deg, #fbc2eb 30%, #a6c1ee 100%);
+}
+
+.btn-pink {
+	background-color: #f48fb1;
+	color: #fff;
+}
+.btn-pink:hover {
+	background-color: #f06292;
+	color: #fff;
+}
+
+.btn-outline-pink {
+	color:#f48fb1;
+    border-color: #f48fb1;
+}
+
+.btn-outline-pink:hover {
+	color: #fff;
+    background-color: #f48fb1;
+    border-color: #f48fb1;
+}
+
+.profile-pic {
+	/*max-height: 340.98px;*/
+	/*max-width: 287.98px;*/
+	object-fit: cover;
+}
+
+.divider-left {
+	width: 50px;
+    height: 5px;
+    background: #ef5350;
+    margin: 0;
+    bottom: 50px;
+}
+
+.divider-center {
+	width: 50px;
+    height: 5px;
+    background: #ef5350;
+    margin-left: 42.6%;
+    bottom: 50px;
+}
+
+.divider-right {
+	width: 50px;
+    height: 5px;
+    background: #ef5350;
+    margin-left: 95.4%;
+    bottom: 50px;
+}
+
+
+@media (min-width: 992px){
+
+	.ml-lg-12, .mx-lg-12 {
+	    margin-left: 16.5rem!important;
+	}
+
+}
+
+.choices-card {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+	transition: box-shadow 0.5s ease-in-out;
+	margin: 0 10px 30px 10px;
+
+}
+
+/*.choices-card img {
+	max-width: 328px;
+	max-height: 328px;
+}*/
+
+.choices-card:focus, .choices-card:hover {
+	box-shadow: 0 5px 15px rgba(0,0,0,0.4) !important;
+	transition: box-shadow 0.5s ease-in-out;
+}
+
+.voted {
+	margin-top: 40px;
+}
+

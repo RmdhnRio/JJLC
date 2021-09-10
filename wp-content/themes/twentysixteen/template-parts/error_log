@@ -1,0 +1,1 @@
+[09-Nov-2019 01:51:12 UTC] PHP Fatal error:  Call to undefined function apply_filters() in /home/jjlcunjc/public_html/wp-content/themes/twentysixteen/template-parts/biography.php on line 21

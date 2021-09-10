@@ -1,0 +1,13 @@
+[20-Oct-2019 02:04:56 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/jjlcunjc/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[22-Oct-2019 21:33:37 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/jjlcunjc/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[06-Nov-2019 01:12:01 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/jjlcunjc/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[08-Dec-2019 23:21:55 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/jjlcunjc/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[08-Dec-2019 23:21:57 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/jjlcunjc/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[13-Dec-2019 01:06:10 UTC] PHP Notice:  Undefined index: wp_version in /home/jjlcunjc/public_html/wp-content/themes/twentyseventeen/functions.php on line 15
+[13-Dec-2019 01:06:10 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/jjlcunjc/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[23-Jun-2020 12:44:50 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/jjlcunjc/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[26-Feb-2021 17:11:42 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/jjlcunjc/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[24-Aug-2021 17:41:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/jjlcunjc/public_html/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/jjlcunjc/public_html/wp-content/themes/twentyseventeen/footer.php on line 22

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>JJLC</title>
+
+  <!-- CSS  -->
+  <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+  <link href="assets/css/icon.css" type="text/css" rel="stylesheet">
+  <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="#" class="brand-logo center"><img alt="JJLC" class="nav-logo" src="assets/img/logojjlc.png"></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="archive.html">Artikel</a></li>
+            <li><a href="contact.html">Kontak</a></li>
+            <li><a class="dropdown-button" href="#!" data-target="divisi">Divisi<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="profile.html">Profil</a></li>
+            <li><a href="gallery.html">Galeri</a></li>
+          </ul>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="login.html">Masuk</a></li>
+            <li><a href="signin.html">Daftar</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Dropdown Desktop -->
+  <ul id="divisi" class="dropdown-content">
+    <li><a href="animanga.html"><img src="assets/img/animanga.png">Animanga</a></li>
+    <li class="divider"></li>
+    <li><a href="culture.html"><img src="assets/img/budaya.png">Budaya</a></li>
+    <li class="divider"></li>
+    <li><a href="cosplay.html"><img src="assets/img/cosplay.png">Cosplay</a></li>
+    <li class="divider"></li>
+    <li><a href="games.html"><i class="material-icons">games</i>Games</a></li>
+  </ul>
+
+    <!-- Dropdown Mobile -->
+  <ul id="mobile-divisi" class="dropdown-content">
+    <li><a href="animanga.html"><img src="assets/img/animanga.png">Animanga</a></li>
+    <li class="divider"></li>
+    <li><a href="culture.html"><img src="assets/img/budaya.png">Budaya</a></li>
+    <li class="divider"></li>
+    <li><a href="cosplay.html"><img src="assets/img/cosplay.png">Cosplay</a></li>
+    <li class="divider"></li>
+    <li><a href="games.html"><i class="material-icons">games</i>Games</a></li>
+  </ul>
+
+  <ul class="sidenav" id="mobile-demo" >
+    <li><a href="index.html">Home</a></li>
+    <li><a href="archive.html">Artikel</a></li>
+    <li><a href="contact.html">Kontak</a></li>
+    <li><a class="dropdown-mobile" href="#!" data-target="mobile-divisi">Divisi<i class="material-icons right">arrow_drop_down</i></a></li>
+    <li><a href="profile.html">Profil</a></li>
+    <li><a href="gallery.html">Galeri</a></li>
+    <li class="divider"></li>
+    <li><a href="login.html">Masuk</a></li>
+    <li><a href="signin.html">Daftar</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+
+  <ul class="sidenav" id="mobile-demo" >
+    <li><a href="index.html">Home</a></li>
+    <li><a href="archive.html">Artikel</a></li>
+    <li><a href="contact.html">Kontak</a></li>
+    <li><a class="dropdown-mobile" href="#!" data-target="mobile-divisi">Divisi<i class="material-icons right">arrow_drop_down</i></a></li>
+    <li><a href="profile.html">Profil</a></li>
+    <li><a href="gallery.html">Galeri</a></li>
+    <li class="divider"></li>
+    <li><a href="login.html">Masuk</a></li>
+    <li><a href="signin.html">Daftar</a></li>
+  </ul>
+
+  
+  <section class="page-title">
+    <div class="row">
+      <div class="container">
+        <h4 class="center">Yahh...</h4>
+        <div class="divider-center"></div>
+      </div>
+    </div>
+  </section>
+
+  <br>
+  <br>
+
+  <div class="row">
+    <div class="col s12 center-align">
+      <img src="assets/img/1.png" class="responsive-img">
+    </div>
+  </div>
+
+  <section class="yahh">
+    <h1 class="center">Yahhh...</h1>
+  </section>
+
+
+
+  <!--  Scripts-->
+  <script src="assets/js/jquery-2.1.1.min.js"></script>
+  <script src="assets/js/materialize.js"></script>
+  <script src="assets/js/init.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+    $(".dropdown-button").dropdown();
+    $(".dropdown-mobile").dropdown();
+  });
+  </script>
+
+  </body>
+</html>

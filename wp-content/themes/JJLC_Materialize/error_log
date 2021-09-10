@@ -1,0 +1,5 @@
+[26-Sep-2020 14:03:07 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/jjlcunjc/public_html/wp-content/themes/JJLC_Materialize/index.php on line 1
+[24-Mar-2021 23:21:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/jjlcunjc/public_html/wp-content/themes/JJLC_Materialize/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/jjlcunjc/public_html/wp-content/themes/JJLC_Materialize/index.php on line 1

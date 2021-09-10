@@ -1,0 +1,171 @@
+            
+            .custBorder {
+                border-radius: 25px;
+
+            }
+            .custRadiusForm {
+                border-radius: 25px;
+
+            }
+            body {
+                font-family: 'Nunito';
+                background-color: #fff;
+            }
+            #image1 {
+                background-image: url('{{ asset('img/bg1.png') }}');
+                Full height
+                
+
+                Center and scale the image nicely
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: ;
+                
+            }
+           #text1{
+            font-weight: 900;
+            font-family: Helvetica, Arial, sans-serif;
+           }
+           #text2{
+            font-weight: 900;
+            font-family: Helvetica, Arial, sans-serif;
+            color: #0E7DAC;
+           }
+           #text3{
+            font-weight: 600;
+           }
+           #text4{
+            font-weight: 600;
+            font-family: Helvetica, Arial, sans-serif;
+            color: #0E7DAC;
+           }
+           .text4row{
+            font-weight: 400;
+            font-family: Helvetica, Arial, sans-serif;
+            color: #0E7DAC;
+           }
+           #text5{
+            font-weight: 600;
+            font-family: Helvetica, Arial, sans-serif;
+            color: #fff;
+           }
+           #text6{
+            font-weight: 400;
+            font-family: Helvetica, Arial, sans-serif;
+            color: #fff;
+           }
+           #text7{
+               color: #0E7DAC;
+           }
+           
+           #textNav{
+            color: #004f75;
+           }
+           #bodyText1{
+            font-family: Helvetica, Arial, sans-serif;
+           }
+           .formFont{
+            font-family: Helvetica, Arial, sans-serif;
+            font-weight: 600;
+           }
+           .formFont1{
+            font-family: Helvetica, Arial, sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+           }
+           .form-inline label{
+            justify-content: left;   
+           }
+           #list1{
+               font-size: 1.75em;
+           }
+           .jumbotron {
+                position: relative;
+                background: #fff url('{{ asset('img/bg2.png') }}') 75% 75%;/*slide.jpg =>you image*/    
+                background-size: 75%;
+                background-position: right bottom;
+                background-repeat: no-repeat;
+                overflow: hidden;
+            }
+            #anchorForm{
+                background-color: #fff;
+            }
+            #formBG{
+                background-repeat: no-repeat;
+                background: rgba(153, 153, 153, .6);
+                opacity: ;
+                position: relative;
+                overflow: hidden;
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 27px;
+            }
+            #image2{
+                background-color: #0E7DAC;
+                /* font-family: 'Montserrat', sans-serif; */
+                font-family: Helvetica, Arial, sans-serif;
+                color: #fff;
+            }
+            #image3{
+                background-color: #E72C25;
+                /* font-family: 'Montserrat', sans-serif; */
+                font-family: Helvetica, Arial, sans-serif;
+                color: #fff;
+            }
+            #image4{
+                background-color: #107DAC;
+                /* font-family: 'Montserrat', sans-serif; */
+                font-family: Helvetica, Arial, sans-serif;
+                color: #fff;
+            }
+            /* html {
+                scroll-behavior: smooth !important;
+            } */
+            .card{
+                border-style: none;
+            }
+            .cardFont{
+                position: absolute;
+                top: 25rem;
+            }
+            
+            .card{
+                cursor:pointer;
+                transition:all .4s ease-in-out;
+                border-radius: 40px;
+            }
+            .card:hover{
+                transform:scale(1.1);
+                box-shadow:10px 10px 10px #888888;
+                
+            }
+
+            #img_container {
+                position:relative;
+                display:inline-block;
+                text-align:center;
+                /* */
+            }
+
+            #butFly {
+                position:absolute;
+                bottom:2rem;
+                right:2rem;
+                border: none;
+                background-color: #ffd84a;
+                color: #004f75;
+                font-family: Helvetica, Arial, sans-serif;
+                }
+            #butSbmt{
+               background-color: #004f75;
+               border: none;
+               font-family: Helvetica, Arial, sans-serif;
+            }
+
+            #footerLP{
+                text-align: center;
+            }
+            #buttonVisWeb{
+                background-color: #ffd84a;
+                color: #004f75;
+            }
